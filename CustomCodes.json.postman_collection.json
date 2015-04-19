@@ -1,0 +1,91 @@
+{
+  "id": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+  "name": "JustGiving Data - CustomCodes",
+  "timestamp": 1429408613111,
+  "requests": [
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "0624c091-65fe-7c1e-a4f3-748f5cd3b4bb",
+      "name": "GetCustomCodesForEvent",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461332592
+    },
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "0896be89-573a-8b57-c161-c403407d19a3",
+      "name": "SetCustomCodesForEvents",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/customcodes",
+      "method": "PUT",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "[\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    },\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    }\n]",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461215047
+    },
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "2f42990e-a504-29d3-d810-4261471f1b95",
+      "name": "SetCustomCodesForPage",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes",
+      "method": "PUT",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "{\n    \"CustomCode1\": \"Foo\",\n    \"CustomCode2\": \"Bar\",\n    \"CustomCode3\": \"B12334\",\n    \"CustomCode4\": \"1943280\",\n    \"CustomCode5\": \"\",\n    \"CustomCode6\": \"1205\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429456963552
+    },
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "8b91e48b-5c1f-4e32-5ed4-cc9b66b077ea",
+      "name": "SetCustomCodesForEvent",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes",
+      "method": "PUT",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "{\n    \"CustomCode1\": \"Freebie\",\n    \"CustomCode2\": \"AX9234GB\",\n    \"CustomCode3\": \"Janet\"\n}",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429458379739
+    },
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "acc3d045-8b2d-54a2-cfe6-501c4d3a20f6",
+      "name": "GetCustomCodesForPage",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461318934
+    },
+    {
+      "collectionId": "ca74d7b7-f254-5370-bccb-b82eebb4b203",
+      "id": "c1af3fc8-4d39-d60a-c98a-902ebf3614de",
+      "name": "SetCustomCodesForPages",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/customcodes",
+      "method": "PUT",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "[\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    },\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    }\n]",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429458023429
+    }
+  ]
+}

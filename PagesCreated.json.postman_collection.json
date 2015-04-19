@@ -1,0 +1,49 @@
+{
+  "id": "90226b95-1fad-07ef-cb69-1f4c729e7c80",
+  "name": "JustGiving Data - PagesCreated",
+  "timestamp": 1429408672790,
+  "requests": [
+    {
+      "collectionId": "90226b95-1fad-07ef-cb69-1f4c729e7c80",
+      "id": "26839d00-8098-fc81-e8ce-a1fb7be64d64",
+      "name": "PagesCreatedWithDates",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/created/{date1};{date2}",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461427452
+    },
+    {
+      "collectionId": "90226b95-1fad-07ef-cb69-1f4c729e7c80",
+      "id": "58c4029f-b2be-c25c-dcb4-42d0d218e8b1",
+      "name": "PagesCreatedByEventIdWithDates",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/pages/created/{date1};{date2}",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461446438
+    },
+    {
+      "collectionId": "90226b95-1fad-07ef-cb69-1f4c729e7c80",
+      "id": "d3b04080-f13d-67f4-a536-ddcd8989cbe3",
+      "name": "SearchPagesWithDates",
+      "description": "",
+      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/created/{date1};{date2}/search",
+      "method": "GET",
+      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
+      "data": "",
+      "dataMode": "raw",
+      "timestamp": 0,
+      "version": 2,
+      "time": 1429461454204
+    }
+  ]
+}
