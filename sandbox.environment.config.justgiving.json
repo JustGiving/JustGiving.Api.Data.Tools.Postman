@@ -1,0 +1,22 @@
+{
+  "id": "ae65afcf-54ec-35c6-5671-19595206e98d",
+  "name": "Data Sandbox",
+  "values": [
+    {
+      "key": "url",
+      "value": "https://dataapi-sandbox.justgiving.com",
+      "type": "text"
+    },
+    {
+      "key": "appId",
+      "value": "yourAppID",
+      "type": "text"
+    },
+    {
+      "key": "basicAuth",
+      "value": "yourBasicAuthToken",
+      "type": "text"
+    }
+  ],
+  "timestamp": 1429413880997
+}
