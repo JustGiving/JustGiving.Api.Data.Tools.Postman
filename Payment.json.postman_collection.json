@@ -2,6 +2,10 @@
   "id": "9e8870b0-b73d-8936-eb9d-5135a398f1a7",
   "name": "JustGiving Data - Payment",
   "timestamp": 1429408696669,
+  "order": [
+    "63894f98-deb2-7261-e8f2-63736d80285c",
+    "9da8b94a-052b-2d74-4144-afb929722b54"
+  ],
   "requests": [
     {
       "collectionId": "9e8870b0-b73d-8936-eb9d-5135a398f1a7",
