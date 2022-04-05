@@ -1,127 +1,109 @@
 {
-  "id": "1af5d570-5d8a-2804-6374-7eda3908d456",
-  "name": "JustGiving Data - CustomCodes",
-  "timestamp": 1429408613111,
-  "order": [
-    "d0a4b8e2-7682-aab9-1218-8548f9ea8336",
-    "69f5a95f-ddf8-5f28-1041-dc1c4080f38e",
-    "8cc2ca5d-88af-ccde-e0fe-5980b2e6db73",
-    "eea1cb8d-463c-cdc8-2f42-92f949fe6793",
-    "c78535a4-1b5c-f84a-f352-3d8a703df924",
-    "0458325b-864c-8a82-34ce-2a9fd8d98ef7"
-  ],
-  "owner": 0,
-  "hasRequests": true,
-  "requests": [
+  "info": {
+    "_postman_id": "1af5d570-5d8a-2804-6374-7eda3908d456",
+    "name": "JustGiving Data - CustomCodes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
     {
-      "id": "0458325b-864c-8a82-34ce-2a9fd8d98ef7",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\nContent-Type: application/json\n",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/customcodes",
-      "preRequestScript": "",
-      "pathVariables": {},
-      "method": "PUT",
-      "data": [],
-      "dataMode": "raw",
-      "version": 2,
-      "tests": "",
-      "currentHelper": "normal",
-      "helperAttributes": {},
-      "time": 1442412681552,
-      "name": "SetCustomCodesForPages",
-      "description": "",
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "rawModeData": "[\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    },\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    }\n]"
-    },
-    {
-      "id": "69f5a95f-ddf8-5f28-1041-dc1c4080f38e",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\nContent-Type: application/json\n",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/customcodes",
-      "preRequestScript": "",
-      "pathVariables": {},
-      "method": "PUT",
-      "data": [],
-      "dataMode": "raw",
-      "version": 2,
-      "tests": "",
-      "currentHelper": "normal",
-      "helperAttributes": {},
-      "time": 1442412643407,
-      "name": "SetCustomCodesForEvents",
-      "description": "",
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "rawModeData": "[\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    },\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    }\n]"
-    },
-    {
-      "id": "8cc2ca5d-88af-ccde-e0fe-5980b2e6db73",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\nContent-Type: application/json\n",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes",
-      "preRequestScript": "",
-      "pathVariables": {},
-      "method": "PUT",
-      "data": [],
-      "dataMode": "raw",
-      "version": 2,
-      "tests": "",
-      "currentHelper": "normal",
-      "helperAttributes": {},
-      "time": 1442412661848,
-      "name": "SetCustomCodesForPage",
-      "description": "",
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "rawModeData": "{\n    \"CustomCode1\": \"Foo\",\n    \"CustomCode2\": \"Bar\",\n    \"CustomCode3\": \"B12334\",\n    \"CustomCode4\": \"1943280\",\n    \"CustomCode5\": \"\",\n    \"CustomCode6\": \"1205\"\n}"
-    },
-    {
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "id": "c78535a4-1b5c-f84a-f352-3d8a703df924",
-      "name": "GetCustomCodesForPage",
-      "description": "",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes",
-      "method": "GET",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": [],
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1429461318934,
-      "preRequestScript": "",
-      "tests": "",
-      "rawModeData": ""
-    },
-    {
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "id": "d0a4b8e2-7682-aab9-1218-8548f9ea8336",
       "name": "GetCustomCodesForEvent",
-      "description": "",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes",
-      "method": "GET",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\n",
-      "data": [],
-      "dataMode": "raw",
-      "timestamp": 0,
-      "version": 2,
-      "time": 1429461332592,
-      "preRequestScript": "",
-      "tests": "",
-      "rawModeData": ""
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" }
+        ],
+        "body": { "mode": "raw", "raw": "" },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes"
+      },
+      "response": []
     },
     {
-      "id": "eea1cb8d-463c-cdc8-2f42-92f949fe6793",
-      "headers": "x-api-key: {{appId}}\nAccept: application/json\nAuthorization: Basic {{basicAuth}}\nContent-Type: application/json\n",
-      "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes",
-      "preRequestScript": "",
-      "pathVariables": {},
-      "method": "PUT",
-      "data": [],
-      "dataMode": "raw",
-      "version": 2,
-      "tests": "",
-      "currentHelper": "normal",
-      "helperAttributes": {},
-      "time": 1442412668681,
+      "name": "SetCustomCodesForEvents",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    },\n    {\n        \"CustomCode1\": \"Euro\",\n        \"CustomCode2\": \"Frac\",\n        \"CustomCode3\": \"5U\",\n        \"EventId\": 3243245\n    }\n]"
+        },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/customcodes"
+      },
+      "response": []
+    },
+    {
+      "name": "SetCustomCodesForPage",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"CustomCode1\": \"Foo\",\n    \"CustomCode2\": \"Bar\",\n    \"CustomCode3\": \"B12334\",\n    \"CustomCode4\": \"1943280\",\n    \"CustomCode5\": \"\",\n    \"CustomCode6\": \"1205\"\n}"
+        },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes"
+      },
+      "response": []
+    },
+    {
       "name": "SetCustomCodesForEvent",
-      "description": "",
-      "collectionId": "1af5d570-5d8a-2804-6374-7eda3908d456",
-      "rawModeData": "{\n    \"CustomCode1\": \"Freebie\",\n    \"CustomCode2\": \"AX9234GB\",\n    \"CustomCode3\": \"Janet\"\n}"
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"CustomCode1\": \"Freebie\",\n    \"CustomCode2\": \"AX9234GB\",\n    \"CustomCode3\": \"Janet\"\n}"
+        },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/events/{eventId}/customcodes"
+      },
+      "response": []
+    },
+    {
+      "name": "GetCustomCodesForPage",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" }
+        ],
+        "body": { "mode": "raw", "raw": "" },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/{pageId}/customcodes"
+      },
+      "response": []
+    },
+    {
+      "name": "SetCustomCodesForPages",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "x-api-key", "value": "{{appId}}" },
+          { "key": "Accept", "value": "application/json" },
+          { "key": "Authorization", "value": "Basic {{basicAuth}}" },
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "[\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    },\n    {\n        \"CustomCode1\": \"Foo\",\n        \"CustomCode2\": \"Bar\",\n        \"CustomCode3\": \"B12334\",\n        \"CustomCode4\": \"1943280\",\n        \"CustomCode5\": \"\",\n        \"CustomCode6\": \"1205\",\n        \"PageId\": 53452\n    }\n]"
+        },
+        "url": "{{url}}/{{appId}}/v1/charity/{charityId}/pages/customcodes"
+      },
+      "response": []
     }
   ]
 }
